@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CV - Yannick DRAPIER</title>
+    <meta
+      name="description"
+      content="CV de Yannick DRAPIER, Comptable Assistant"
+    />
+    <meta name="keywords" content="CV, Yannick DRAPIER, Comptable" />
+
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="portfolio-details-page">
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">DevFolio</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li>
+              <a href="#hero">Home<br /></a>
+            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Dropdown</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Deep Dropdown</span>
+                    <i class="bi bi-chevron-down toggle-dropdown"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Titre de la page -->
+      <div class="page-title" data-aos="fade">
+        <div
+          class="container d-lg-flex justify-content-between align-items-center"
+        >
+          <h1 class="mb-2 mb-lg-0">Détails du Portfolio</h1>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Accueil</a></li>
+              <li class="current">Détails du Portfolio</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!-- Fin Titre de la page -->
+
+      <!-- Section Détails du Portfolio -->
+      <section id="portfolio-details" class="portfolio-details section">
+        <div class="container" data-aos="fade-up">
+          <!-- Slider d'images -->
+          <div class="portfolio-details-slider swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": { "delay": 5000 },
+                "slidesPerView": "auto",
+                "navigation": {
+                  "nextEl": ".swiper-button-next",
+                  "prevEl": ".swiper-button-prev"
+                },
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script>
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/portfolio/finance-dashboard.jpg"
+                  alt="Tableau de bord financier développé pour le projet"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/portfolio/invoice-system.jpg"
+                  alt="Module de facturation et suivi des paiements"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/portfolio/payroll-management.jpg"
+                  alt="Interface de gestion de la paie"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/img/portfolio/reporting-tools.jpg"
+                  alt="Outils de reporting et analyse budgétaire"
+                />
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- Fin Slider -->
+
+          <div class="row justify-content-between gy-4 mt-4">
+            <!-- Description du projet -->
+            <div class="col-lg-8" data-aos="fade-up">
+              <div class="portfolio-description">
+                <h2>
+                  Solution intégrée de gestion comptable et administrative
+                </h2>
+                <p>
+                  Ce projet a consisté à mettre en place un système complet de
+                  gestion comptable et administrative pour une PME locale.
+                  L’objectif était de centraliser la saisie des opérations, la
+                  facturation, la gestion de la paie et le suivi budgétaire dans
+                  un seul outil performant.
+                </p>
+                <p>
+                  La solution comprend un tableau de bord interactif, un module
+                  de facturation automatisée, un suivi des dépenses en temps
+                  réel et un système d’archivage numérique sécurisé. Elle a
+                  permis de réduire les erreurs, d’optimiser les délais de
+                  traitement et d’améliorer la visibilité financière.
+                </p>
+
+                <!-- Témoignage -->
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >Grâce à cette solution, notre gestion administrative et
+                      financière est devenue plus fluide et plus fiable. Nous
+                      avons gagné en efficacité et en précision dans nos
+                      opérations quotidiennes.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <div>
+                    <img
+                      src="assets/img/testimonials/testimonials-2.jpg"
+                      class="testimonial-img"
+                      alt="Photo du client satisfait"
+                    />
+                    <h3>Marie Dupont</h3>
+                    <h4>Responsable Administrative</h4>
+                  </div>
+                </div>
+                <!-- Fin Témoignage -->
+
+                <p>
+                  Ce projet illustre ma capacité à concevoir et mettre en œuvre
+                  des solutions adaptées aux besoins spécifiques d’une
+                  organisation, en alliant rigueur comptable, maîtrise des
+                  outils numériques et sens de l’organisation.
+                </p>
+              </div>
+            </div>
+
+            <!-- Informations techniques -->
+            <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="portfolio-info">
+                <h3>Informations sur le projet</h3>
+                <ul>
+                  <li>
+                    <strong>Catégorie</strong> : Gestion Comptable &
+                    Administrative
+                  </li>
+                  <li>
+                    <strong>Client</strong> : PME locale (secteur services)
+                  </li>
+                  <li><strong>Date</strong> : Juin 2024</li>
+                  <li>
+                    <strong>Technologies</strong> : Excel avancé, EBP
+                    Comptabilité, Outils collaboratifs
+                  </li>
+                  <li>
+                    <strong>Résultats</strong> : -30% de temps de traitement,
+                    +20% de précision des données
+                  </li>
+                  <li>
+                    <a href="#" class="btn btn-primary btn-sm mt-2"
+                      >Voir le projet</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Section Détails du Portfolio -->
+    </main>
+
+    <footer id="footer" class="footer accent-background py-4">
+      <div class="container text-center">
+        <div class="copyright mb-2">
+          <p>
+            © <span id="currentYear"></span>
+            <strong class="px-1 sitename">Yannick DRAPIER</strong>
+            — Tous droits réservés
+          </p>
+        </div>
+        <div class="credits">
+          Design réalisé par
+          <a
+            href="https://jeanlucndato.github.io/resume/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            inversehacker
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
